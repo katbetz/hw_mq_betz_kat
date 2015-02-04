@@ -1,0 +1,24 @@
+
+/* desktop first */
+
+body{
+    background-color: tomato;
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        background-color: lime;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        background-color: lightpink;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: turquoise;
+    }
+}
